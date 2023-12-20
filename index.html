@@ -41,7 +41,7 @@ newval   = (recv-min_value)/(max_value-min_value);
 chart.data.datasets[0].data[0] = newval;
 chart.data.datasets[0].data[1] = 1-newval;
 chart.data.labels[0] = recv;
-document.getElementById("cap").innerHTML = recv + "'C";
+document.getElementById("cap").innerHTML = recv + "%";
 chart.update();
 }
 
